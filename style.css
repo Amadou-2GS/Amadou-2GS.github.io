@@ -1,0 +1,18 @@
+/********partie general*********/
+h1
+{
+    color: #444;
+    font-size: 40px;
+}
+h2
+{
+    color: #444;
+    font-size: 60px;
+}
+
+/*****partie header*****/
+header
+{
+    width: 100%;
+
+}
