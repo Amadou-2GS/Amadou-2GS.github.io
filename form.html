@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Mon CV</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/menu.css" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="header">
+            <div class="photoPerso">
+                <img src="images/tooff.jpg" alt="logo du site"/>
+            </div>
+            <div class="posteRecherche size40 colorBlueDark">
+                Enseignat en langue Arabe <br />
+                Développeur web <br />
+                Chef de projet informatique
+            </div>
+            <div class="infoPerso size40 colorBlueDark">
+                Amadou GOLOKO <br />
+                776419160 <br />
+                amadougoloko94@gmail.com
+            </div>
+        </div>
+        <!-- Nav -->
+        <nav class="bg-colorBlue3">
+            <ul>
+                <li class="menuInfo">
+                    <a href="cv.html">mes informations</a>
+                </li>
+                <li class="menuExperience">
+                    <a href="exprience.html">Expériences pro</a>
+                </li>
+                <li class="menuContact">
+                    <a href="form.html">Formulaire de contact</a>
+                </li>
+            </ul>
+        </nav>
+                <h2>Formulaire d'inscription</h1>
+                <form method="post" action="form.php">
+                  <fieldset id="section1">
+                    <legend>Information personnel :</legend>
+                    <div class="champ">
+                      <label for="nom">Entrez votre nom : </label>
+                      <input type="text" id="nom" name="nom" placeholder="Ex: Goloko"><br>
+                    </div>
+                    <div class="champ">
+                      <label for="prenom">Entrez votre prenom :</label>
+                      <input type="prenom" id="prenom" name="prenom" placeholder="Ex: Amadou"><br>
+                    </div>
+                  </fieldset> <br>
+                  <fieldset id="section2">
+                    <legend>Information de la connexion :</legend>
+                  <div class="champ">
+                    <div class="champ">
+                      <label for="mail">Entrez un mail :</label>
+                      <input type="email" id="mail" name="mail" placeholder="votre adresse mail"><br>
+                    </div>
+                    <div class="champ">
+                      <label for="pass">Entrez un mot de passe :</label>
+                      <input type="password" id="pass" name="pass" placeholder="mot de passe"><br>
+                    </div>
+                    <div class="champ">
+                      <label for="cpass">confirmer votre mot de passe :</label>
+                      <input type="password" id="cpass" name="cpass" placeholder="confirmer votre mot de passe"><br>
+                    </div>
+                  </fieldset>
+                    <div class="champ">
+                        <input type="submit" value="s'inscrire">
+                       </div>
+                  </form>
+
+                   <!-- Footer du site-->
+        <div class="footer text-center colorWhite bg-colorBlue3">
+          Tous droits réservés
+      </div>
+</body>
+</html>
